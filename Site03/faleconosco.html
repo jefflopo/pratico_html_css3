@@ -30,7 +30,7 @@
 <section class="sec_fale">
     <div class="container">
         <div class="metade">
-            <form enctype="application/x-www-form-urlencoded" method="post">
+            <form name="form_contato" enctype="application/x-www-form-urlencoded" method="get">
                 <label for="NomeCompleto">Nome</label>
                 <input type="text" name="nome_completo" id="NomeCompleto" placeholder="Digite seu nome." />
                 <br/>
@@ -42,6 +42,8 @@
                 <br>
                 <label for="Mensagem">Mensagem</label>
                 <textarea name="mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+                <br>
+                <span class="texto"></span>
                 <br>
                 <input type="submit" value="Enviar">
             </form>
@@ -110,5 +112,6 @@
             Todos os direitos reservados (@) 2020. Termos de uso e Política de privacidade.
         </div>
     </footer>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
